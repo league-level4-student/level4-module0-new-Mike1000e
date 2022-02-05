@@ -96,7 +96,7 @@ public class Snake {
          * opposite.
          */
     	
-    	if(!isOppositeDirection(direction)&&canMove) {
+    	if(isOppositeDirection(direction)==false&&canMove) {
     		canMove = false;
         	this.currentDirection = direction;
     	}else {
